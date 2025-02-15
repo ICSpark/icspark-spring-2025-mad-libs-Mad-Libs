@@ -1,0 +1,40 @@
+/* Already implemented */
+.container {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 30px; 
+}
+
+/* Individual category styling */
+.category {
+    text-align: center; 
+    width: 30%; 
+}
+
+#output {
+    text-align: center;
+    font-size: 50px;
+}
+
+/* ---- Write code below ---- */
+h1, h2 {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+button {
+    padding: 10px;
+}
